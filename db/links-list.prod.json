@@ -1,0 +1,5 @@
+{
+  "main": "https://www.google.com/search?q=%D1%82%D0%B5%D1%81%D1%82&sxsrf=ALiCzsZZJx2ax0PAv8oZLHnG-ISAfjCVwg:1664717563296&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjrsouY1MH6AhWJw4sKHTauCQoQ_AUoAXoECAEQAw&biw=1440&bih=821&dpr=2",
+  "maps": "https://www.google.com/maps?q=%D1%82%D0%B5%D1%81%D1%82&bih=821&biw=1440&hl=ru&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjKwOSp1MH6AhWhlosKHcsUBcEQ_AUoA3oECAEQBQ",
+  "news": "https://www.google.com/search?q=%D1%82%D0%B5%D1%81%D1%82&hl=ru&sxsrf=ALiCzsbn2GUT-Q26cCSyTgLQC7AA31sE6Q:1664717600410&source=lnms&tbm=nws&sa=X&ved=2ahUKEwjKwOSp1MH6AhWhlosKHcsUBcEQ_AUoAnoECAEQBA&biw=1440&bih=821&dpr=2"
+}
