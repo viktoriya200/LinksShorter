@@ -1,0 +1,15 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "It's pet project what was created to shorten long links",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node.js",
+    "node"
+  ],
+  "author": "Vika Marina <v.marina.vega@yandex.ru>",
+  "license": "ISC"
+}
