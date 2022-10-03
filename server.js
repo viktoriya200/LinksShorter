@@ -6,6 +6,7 @@ const { notFound } = require('./middlewares/notFound');
 const { urlLogger } = require('./middlewares/urlLogger');
 const { errorHandler } = require('./middlewares/errorHandler');
 const { accessLogs } = require('./middlewares/accessLogs');
+const { dumpDatabase } = require('./utils/dumpDatabase');
 
 const app = express();
 app.use(express.json());
@@ -23,3 +24,5 @@ app.use(errorHandler);
 
 const PORT = 3000;
 app.listen(PORT, () => console.log('Server has been started on port 3000'));
+
+dumpDatabase();
