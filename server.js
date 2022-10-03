@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(urlLogger);
 
 app.get('/:alias', resolveAlias);
-app.post('alias', addAlias);
+app.post('/alias', addAlias);
 
 app.use(notFound);
 app.use(errorHandler);

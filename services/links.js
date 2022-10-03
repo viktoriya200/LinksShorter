@@ -13,7 +13,7 @@ async function getByAlias(alias) {
     return links[alias];
 }
 
-async function addAlias(alias, link) {
+async function addAlias(link, alias) {
     const links = require(linksFilePath);
 
     if(links[alias]) {
@@ -21,7 +21,6 @@ async function addAlias(alias, link) {
     }
 
     links[alias] = link;
-
     await fs.writeFile(linksFilePath, JSON.stringify(links, null, 2), 'utf-8');
 
     return links[alias];
