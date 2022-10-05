@@ -8,8 +8,12 @@ const { errorHandler } = require('./middlewares/errorHandler');
 const { accessLogs } = require('./middlewares/accessLogs');
 const { dumpDatabase } = require('./utils/dumpDatabase');
 const { monitorProcess } = require('./utils/monitorProcess');
+const { secure } = require('./middlewares/security');
 
 const app = express();
+
+secure(app);
+
 app.use(express.json());
 
 app.use(urlLogger);
