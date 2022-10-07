@@ -1,0 +1,21 @@
+{
+  "name": "links-shorter",
+  "description": "It's pet project what was created to shorten long links",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node_modules/.bin/vite",
+    "build": "node_modules/.bin/vite build",
+    "preview": "node_modules/.bin/vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "author": "Vika Marina <v.marina.vega@yandex.ru>",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.0",
+    "sass": "^1.55.0",
+    "vite": "^3.1.0"
+  }
+}

@@ -1,0 +1,15 @@
+GET / - 200 2.376 ms
+GET /favicon.ico - 200 3.121 ms
+GET / - 200 4.032 ms
+GET /assets/index.0624e795.js - 200 2.320 ms
+GET /assets/index.352d3537.css - 200 1.997 ms
+GET /vite.svg - 200 8.724 ms
+GET / - 200 15.121 ms
+GET /@vite/client - 200 12.290 ms
+GET /src/main.js - 200 7.804 ms
+GET /src/style.css - 200 7.749 ms
+GET /src/App.vue - 200 6.212 ms
+GET /node_modules/vite/dist/client/env.mjs - 200 5.712 ms
+GET /node_modules/.vite/deps/vue.js?v=b7763442 - 200 8.266 ms
+GET /src/components/Form.vue - 200 9.157 ms
+GET /src/App.vue?vue&type=style&index=0&lang.module.scss - 200 7.983 ms

@@ -1,7 +1,7 @@
 const path = require('path');
 const CronJob = require('cron').CronJob;
-const { compressFile } = require('../utils/compressFile');
-const { getDatabaseFilePath } = require('../utils/getDatabaseFilePath');
+const { compressFile } = require('./compressFile');
+const { getDatabaseFilePath } = require('./getDatabaseFilePath');
 
 const linksFilePath = getDatabaseFilePath();
 

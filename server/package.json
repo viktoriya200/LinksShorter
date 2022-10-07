@@ -1,18 +1,20 @@
 {
-  "name": "nodejs",
-  "version": "1.0.0",
+  "name": "links-shorter",
   "description": "It's pet project what was created to shorten long links",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "private": true,
+  "version": "0.0.0",
   "keywords": [
     "node.js",
     "node"
   ],
-  "author": "Vika Marina <v.marina.vega@yandex.ru>",
-  "license": "ISC",
+  "scripts": {
+    "start": " node srver.js"
+  },
   "dependencies": {
+    "http-proxy-middleware": "^2.0.6"
+  },
+  "author": "Vika Marina <v.marina.vega@yandex.ru>",
+  "devDependencies": {
     "cors": "^2.8.5",
     "cron": "^2.1.0",
     "express": "^4.18.1",

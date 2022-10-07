@@ -1,4 +1,7 @@
+const path = require('path')
+
 const express = require('express');
+const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const { resolveAlias } = require('./controllers/resolveAlias');
 const { addAlias } = require('./controllers/addAlias');
@@ -23,6 +26,15 @@ app.use(accessLogs()); // write to console
 
 app.get('/:alias', resolveAlias);
 app.post('/alias', addAlias);
+
+app.use(
+    process.env.NODE_ENV === 'production'
+        ? express.static(path.resolve(__dirname, '../client/dist'))
+        : createProxyMiddleware({
+            target: 'http://localhost:3001',
+            changeOrigin: true,
+        })
+);
 
 app.use(notFound);
 app.use(errorHandler);
